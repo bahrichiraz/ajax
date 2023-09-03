@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cours jQuery</title>
+        <meta charset="utf-8">
+    </head>
+    <script type="text/javascript" src="jQuery.js"></script>
+    <script type="text/javascript" src="slecteur.js"></script><style>
+        p{background-color:#0d76bc;}
+        img{
+            position: relative; /* Required to move element */
+        }
+    </style>
+
+<body onload="doubleClique(), buttonEffect(),paragrapgClick() , mouseEffect(), animationSimple(), animImage()">
+        <h1>Evenements sur paragraph</h1>
+        <p>Cliquez ici</p>
+        <p>Cliquez ici</p>
+        <h1>Evenements sur boutton</h1> 
+        <button>#1</button>
+        <button>#2</button>
+        <div><span>0</span> clics.</div>
+        <div><span>0</span> clics.</div>
+        <h1>Evenements sur la souris</h1> 
+        <div id="exemple">Voir effet de la souris </div>
+        <h1>Double clique sur la souris</h1> 
+        <div id="exemple2">Si tu Double-clique sur moi, je disparais. </div>
+        <h1>Animation Simple</h1> 
+        <div id="exemple3">Effet animation 1 </div><br>
+        <h1>Animation Simple 2 </h1> 
+        <div id="exemple4">Effet animation 2 </div>
+        <h1>Evenements sur image</h1> 
+        <p>
+            <img src="nuage.png" alt="Nuage">
+        </p>
+        <button type="button" class="start-btn">Demarrer</button>
+    <button type="button" class="stop-btn">Stopper</button>
+    <button type="button" class="back-btn">Retour</button>
+    <button type="button" class="reset-btn">Effacer</button>
+    
+    </body>
+</html>
